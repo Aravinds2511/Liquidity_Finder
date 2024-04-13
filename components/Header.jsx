@@ -7,9 +7,9 @@ const Header = ({ setActiveComponent, activeNetwork }) => {
   //Menu list
   const navMenu = [ "Home", "Liquidity", "Pool History", "Liquidity History", "Networks" ]
   return (
-    <header id = "navbar-sticky" className="navbar bg-gray-400">
+    <header id = "navbar-sticky" className="navbar bg-gray-800 mb-4 md:mb-6 lg:mb-8">
       <div className="container">
-        <nav className="">
+        <nav className="pb-4">
           <a className="logo" href="/">
             <img src="assets/images/logo.png"
             alt="webAI" className="h-10" />
